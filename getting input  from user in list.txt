@@ -1,0 +1,12 @@
+list1=[]
+while True:
+    elements=input("enter the number of elements :")
+    list1.append(elements)
+    choice=input("press yes if you wnat to continue ,otherwise press any key to exit the loop : ")
+    if choice== "yes":
+        continue
+    else:
+        break
+print("list of items is : ",list1)
+''' we can use eval() function in order to get input all the input like integer ,string,float but in somecase eval function is dangerouse
+in order to that we can use [ast.literal_eval] along with that import package [import ast] 
